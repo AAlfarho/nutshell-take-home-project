@@ -1,0 +1,12 @@
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# out dir
+out/
+
+# IntelliJ
+*.iml
+.idea/
