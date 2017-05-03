@@ -4,7 +4,7 @@ https://github.com/nutshellcrm/join-the-team/blob/master/developer-questions.md
 
 It was interesting how deep down the rabbit whole you could go implementing this mini project.
 
-#-Flattener
+#Flattener
 
 When going through the flattener I though that for example ruby already has that functionality, but on Java, we could either 
 have as arguments:
@@ -25,7 +25,7 @@ Flattenner uses only JUnit (junit-4.12.jar) and Hamcrest(hamcrest-core-1.3.jar) 
 
 
 
-#-REST API Client
+#REST API Client
 For this example we basically just used a javax client to access 'http://join.nutshell.com/people/x/',
 translate the JSON response into a List of People and we just keep going until an empty array is returned.
 Then we just need to iterate through the whole collection and filter out all registered users whit null emails and
