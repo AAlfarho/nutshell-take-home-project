@@ -4,7 +4,7 @@ https://github.com/nutshellcrm/join-the-team/blob/master/developer-questions.md
 
 It was interesting how deep down the rabbit whole you could go implementing this mini project.
 
-#Flattener
+# Flattener
 
 When going through the flattener I though that for example ruby already has that functionality, but on Java, we could either 
 have as arguments:
@@ -20,12 +20,12 @@ have a tree like representation, meaning, we process the string and deliver a ro
 
 FlattenerUnitTest is the place to go for examples on how to use the Flattener class.
 
-##Dependencies
+## Dependencies
 Flattenner uses only JUnit (junit-4.12.jar) and Hamcrest(hamcrest-core-1.3.jar) for its unit testing purposes.
 
 
 
-#REST API Client
+# REST API Client
 For this example we basically just used a javax client to access 'http://join.nutshell.com/people/x/',
 translate the JSON response into a List of People and we just keep going until an empty array is returned.
 Then we just need to iterate through the whole collection and filter out all registered users whit null emails and
@@ -33,11 +33,11 @@ add them into a Priority Queue that we will later use to retrieve the last user 
 Examples on the usage of NutshellClient can be found under NutshellClientUnitTest.
 
 
-
-##Dependencies
+## Dependencies
 Used JBoss project RESTEasy (http://download.jboss.org/resteasy/resteasy-jaxrs-3.1.2.Final-all.zip)
 
-#Overall
+
+# Overall
 The tests itself are quite easy to follow, and the code here presented might look way to much for what it achieves,
 however it is coded the way it would be for an enterprise app, ie.
 - We have enums for error codes.
@@ -49,7 +49,7 @@ In the end even there are more things to cover and polish, this would be the fir
 building.
 
 
-#TODO's
+# TODO's
 - Implement maven or gradle for automatic build.
 - Comment classes so that we can autogenerate the help pages automatically.
 - Implement resource bundle parameter substitution.
